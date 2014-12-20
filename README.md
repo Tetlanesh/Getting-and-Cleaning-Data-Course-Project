@@ -24,7 +24,7 @@ Data for analisys:
     Script is based on assumtpion that data for analysis are in workdir in folder:
     - UCI HAR Dataset
     
-    Files can be ibtained at following location:
+    Files can be obtained at following location:
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
     unzip the file into Your working directory
     
@@ -38,7 +38,7 @@ Data for analisys:
     UCI HAR Dataset/train/y_train.txt
     UCI HAR Dataset/train/subject_train.txt
 
-    Role each file have in obtaining file is best visualized using diagram made by "David Hood" on course project forum:
+    Role each file have in obtaining final data set is best visualized using diagram made by "David Hood" on course project forum:
     https://class.coursera.org/getdata-016/forum/thread?thread_id=50#comment-333
 
 
