@@ -62,7 +62,7 @@ Each of 66 features is based on original samsung data. Name of each feature cont
    - _Y - meassurment in Y axes
    - _Z - meassurment in Z axes
 
-So for example feature "freq_BodyAcc_std_Z" stands for "standard deviation of frequency of acceleration changes in Z axis"
+So for example feature "freq_BodyAcc_std_Z" stands for "standard deviation of frequency of body acceleration changes in Z axis"
 
 ## File values
 
