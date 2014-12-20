@@ -20,15 +20,15 @@ And available for download in here:
  - 68 columns
 
 ##Columns:
- - Subject_code - id of a subject performing experiment
- - Activity_description - label of activity containing one of the following values:
+ - Subject_code (numeric) - id of a subject performing experiment
+ - Activity_description (character) - label of activity containing one of the following values:
    -  WALKING
    -  WALKING_UPSTAIRS
    -  WALKING_DOWNSTAIRS
    -  SITTING
    -  STANDING
    -  LAYING
- - 66 features columns descrideb more below, containing mean value of respected measurments
+ - 66 features numeric (float) columns described more below, containing mean value of respected measurments
  
 ##Features naming convention
 
@@ -37,12 +37,12 @@ Each of 66 features is based on original samsung data. Name of each feature cont
    - time_ - containing measurments of time of action
    - freq_ - containing measurment of frequency of action
  - type of measurment:
-   - tBodyAcc
-   - tGravityAcc
-   - tBodyAccJerk
-   - tBodyGyro
-   - tBodyGyroJerk
-   - tBodyAccMag
+   - BodyAcc
+   - GravityAcc
+   - BodyAccJerk
+   - BodyGyro
+   - BodyGyroJerk
+   - BodyAccMag
    - GravityAccMag
    - BodyAccJerkMag
    - BodyGyroMag
