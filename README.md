@@ -10,3 +10,10 @@ This repository contains script "run_analisys.R" that is used to transform data 
     Appropriately labels the data set with descriptive variable names. 
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+### Requirments:
+libraries:
+    dplyr
+
+R version (should work on earlier, but it was tested on provided below):
+    R version 3.1.2 (2014-10-31) 
+
