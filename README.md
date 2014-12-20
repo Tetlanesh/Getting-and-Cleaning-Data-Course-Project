@@ -81,5 +81,3 @@ this is a short breakdown of what this script do to initial data files and how i
  - copy the run_analisys.R file into your working directory
  - type source('run_analysis.R') in your console - this will run the whole script
  
- 
-### ddd
