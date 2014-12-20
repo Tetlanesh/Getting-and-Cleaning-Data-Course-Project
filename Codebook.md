@@ -70,3 +70,15 @@ Each row, appart from Subject and Activity first two columns contains a mean() v
 
 ## step by step transformation of initial data set
 
+ - filters out the list of features for test data set leaving only those containing mean() or std() in their name - resulting in 66 features list
+ - filters out the list of features for training data set leaving only those containing mean() or std() in their name - resulting in 66 features list
+ - clearing out the names of features, removing illegal characters (brackets and -), removing duplicated words that are errors (BodyBody)
+ - changing initial f|t character into freq_ | time_ strings so its more clear what each feature represent on first glance
+ - for both test and training data set combines those sets with subject file data set and activity file data set
+ - merges activity names with test|training data set
+ - rearanges columns in both sets: subject in first, activity code second and activity description third, followed by 66 features in unchenged order
+ - rbinds both: test and training data sets into one big samsung data set containing all rows
+ - removes redundant activity code column as we already joined in activity label
+ - calculates mean values for each group of Subject / Activity / Feature
+ 
+More information available in script comments and reamdme.md file
