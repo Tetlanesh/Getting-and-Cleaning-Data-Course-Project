@@ -74,3 +74,12 @@ this is a short breakdown of what this script do to initial data files and how i
  - we set the grouping mode (dplyr library) on subject and activity
  - calculates mean values for each group of Subject / Activity / Feature
  - stores the final tidy set as a text file in working directory
+
+
+### How to run the script?
+
+ - copy the run_analisys.R file into your working directory
+ - type source('run_analysis.R') in your console - this will run the whole script
+ 
+ 
+### ddd
